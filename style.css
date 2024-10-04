@@ -33,6 +33,10 @@ html,body{
     /* background-color: crimson; */
     position: absolute;
 }
+#logo{
+    font-size: 22px;
+    color: honeydew;
+}
 #page1 nav img{
     margin-top: -50px;
     width: 10%;
@@ -45,3 +49,64 @@ html,body{
     border: 1px solid whitesmoke;
     font-size: 17px;
 }
+#bottom-page-1{
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    height: 35vh;
+    width: 50vw;
+    /* background-color: crimson; */
+    color: honeydew;
+
+}
+#bottom-page-1 h1{
+    font-size: 5vw;
+    line-height: 1;
+    font-weight:800;
+}
+#bottom-page-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#bottom-page-1 button{
+    font-size: 1.2vw;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: honeydew;
+    border: none;
+    background-color: white;
+    color: #0b48ed;
+}
+@media only screen and (max-width: 1200px) {
+    #page1 nav img{
+        width: 150px;
+
+    }
+    #bottom-page-1{
+        padding: 0 20px;
+        left: 0;
+        width: 90%;
+    }
+    #bottom-page-1 h1{
+        font-size: 9vw;
+    }
+    #bottom-page-inner{
+        font-size: 20px;
+    }
+    #bottom-page-1 button{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    #bottom-page-1 h4{
+        width: 90%;
+    }
+    #bottom-page-1{
+        bottom: 20%;
+    }
+  }

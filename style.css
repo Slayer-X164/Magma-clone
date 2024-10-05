@@ -89,22 +89,27 @@ html,body{
 
     }
     #bottom-page-1{
+        height: 60vh;
         padding: 0 20px;
         left: 0;
-        width: 90%;
+        width: 100%;
     }
     #bottom-page-1 h1{
-        font-size: 9vw;
+        font-size: 60px;
     }
     #bottom-page-inner{
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
         font-size: 20px;
+        width: 90%;
     }
     #bottom-page-1 button{
         font-size: 14px;
         font-weight: 600;
     }
     #bottom-page-1 h4{
-        width: 90%;
+        width: 60%;
     }
     #bottom-page-1{
         bottom: 20%;

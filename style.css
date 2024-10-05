@@ -74,6 +74,10 @@ html,body{
     width: 100%;
     /* background-color: aqua; */
 }
+#bottom-page-inner h4{
+    line-height: 2;
+        font-style: italic;
+}
 #bottom-page-1 button{
     font-size: 1.2vw;
     padding: 10px 20px;
@@ -109,7 +113,9 @@ html,body{
         font-weight: 600;
     }
     #bottom-page-1 h4{
-        width: 60%;
+        line-height: 2;
+        font-style: italic;
+        width: 100%;
     }
     #bottom-page-1{
         bottom: 20%;

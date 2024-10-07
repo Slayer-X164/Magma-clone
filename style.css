@@ -87,6 +87,36 @@ html,body{
     background-color: white;
     color: #0b48ed;
 }
+
+#page2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #033ad0;
+    position: relative;
+    padding: 0  8vw;
+    color: honeydew
+}
+#page2 h2{
+    color: rgba(240, 255, 240, 0.663);
+    margin-bottom: 3vw;
+    font-weight: 300;
+
+}
+#page2 h1{
+    width: 95%;
+    font-weight: 100;
+    line-height: 1.2;
+    font-size: 4vw;
+}
+
+
+
+
+
 @media only screen and (max-width: 1200px) {
     #page1 nav img{
         width: 150px;

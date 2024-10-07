@@ -9,10 +9,12 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"
 />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
 </head>
 <body>
     <div id="main">
-        <div id="page1">
+        <div data-scroll data-scroll-speed="-5"  id="page1">
             <nav>
                 <h2 id="logo">Mag.</h2>
                 <div id="rightnav">
@@ -31,7 +33,17 @@
             </div>
             <video src="vid/1.mp4" autoplay muted loop></video>
         </div>
+
+        <div id="page2">
+            <h2>Certify your building as a Digital Twin Token (DTT®)</h2>
+            <h1 id="textP">The Digital Twin Token is a unique digital asset backed by property data. Magma combines your building’s components and systems essential information into a DTT®.</h1>
+        </div>
     </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

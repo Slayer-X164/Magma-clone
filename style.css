@@ -98,7 +98,7 @@ html,body{
     background-color: #033ad0;
     position: relative;
     padding: 0  8vw;
-    color: honeydew
+    color: #f0fff0
 }
 #page2 h2{
     color: rgba(240, 255, 240, 0.663);
@@ -111,6 +111,7 @@ html,body{
     font-weight: 100;
     line-height: 1.2;
     font-size: 4vw;
+    color: #f0fff02e;
 }
 
 
@@ -149,5 +150,24 @@ html,body{
     }
     #bottom-page-1{
         bottom: 20%;
+    }
+    #page2 h2{
+        color: rgba(240, 255, 240, 0.663);
+        margin-bottom: 5vw;
+        font-weight: 300;
+        font-size: 4.5vw;
+
+    }
+    #page2 h1{
+        width: 95%;
+        font-weight: 100;
+        line-height: 1.2;
+        font-size: 2.6rem;
+        letter-spacing: -3px;
+
+        color: #f0fff02e;
+    }
+    #page2{
+        padding: 0 4vw;
     }
   }
